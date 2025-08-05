@@ -1,153 +1,310 @@
 <!DOCTYPE html>
-<html lang="id" class="light">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Masterpiece Legend - Home</title>
-    <link rel="stylesheet" href="cs/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <!-- font-family: 'Roboto Condensed', sans-serif; -->
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+  <!-- font-family: 'Oxygen', sans-serif; -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" >
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@masterpiecelegend">
+  <meta name="twitter:creator" content="@masterpiece legend">
+  <meta name="twitter:title"
+    content="legendstylebiak">
+  <meta name="twitter:description"
+    content="masterpiece legend style.">
+  <meta name="twitter:image" content="assets/images/masterpiecelegend.jpg">
+  <!-- Twitter Card End -->  
+  <!-- Linkedin & Facebook Card -->
+  <meta property='og:title'
+    content="Your Name -Portfolio" />
+  <meta property='og:image' content="assets/images/masterpiecelegend.jpg" />
+  <meta property="og:type" content="website" /><!--  og:type is only for Facebook-->
+  <meta property='og:description'
+    content="This is a portfolio website template that is free to download and use. You can edit this template and create your portfolio website in half an hour." />
+  <meta property='og:url' content="assets/images/social-media-thumbnail.jpg" />
+  <!-- Linkedin Card End -->
+  <!-- aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Masterpiece Legend Style Biak</title>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="index.html" class="flex items-center space-x-3">
-                <img src="assets/masterpiece-logo.png" class="h-8" alt="Masterpiece Legend Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Masterpiece Legend</span>
-            </a>
-            <button id="navbar-toggle" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-menu" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                </svg>
-            </button>
-            <div class="hidden w-full md:block md:w-auto" id="navbar-menu">
-                <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                    <li>
-                        <a href="index.html" class="nav-item block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
-                    </li>
-                    <li>
-                        <a href="tentang.html" class="nav-item block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Tentang</a>
-                    </li>
-                    <li>
-                        <a href="paket.html" class="nav-item block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Paket</a>
-                    </li>
-                    <li>
-                        <a href="galeri.html" class="nav-item block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Galeri</a>
-                    </li>
-                    <li>
-                        <a href="lokasi.html" class="nav-item block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Lokasi</a>
-                    </li>
-                    <li>
-                        <a href="kontak.html" class="nav-item block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Kontak</a>
-                    </li>
-                </ul>
-            </div>
+  <nav class="site-header">
+    <div class="nav-logo">
+      <a href="index.html">
+        <img src="assets/images/logo.png" alt="logo" width="314" height="60">
+      </a>
+    </div>
+    <button class="hamburger"><img src="assets/images/menu.png" alt="menu toggle icon"></button>
+    <div class="nav-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#paket">Paket</a></li>
+        <li><a href="#Galeri">Galeri</a></li>
+        <li><a href="#Lokasi">Lokasi</a></li>
+    
+    
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav><!-- .site-header -->
+  <section class="banner">
+    <div class="banner--content"
+    data-aos="fade-in"
+    data-aos-duration="2000"
+    >
+      <h3 class="name">Masterpiece Legend Style</h3>
+      <h1 class="designation"> </h1>
+      <p class="tagline">If you&apos;re writer or something else, change the title as per your profession.</p>
+    </div>    
+  </section><!-- .banner -->
+  <section class="promo">
+    <div class="content"
+    data-aos="fade-up"
+    data-aos-offset="50"
+    >
+      <h2>We bring your <span class="bold">ideas</span> to life<span class="orange">.</span></h2>
+      <p>Great ideas, beautifully executed & commercially sound.</p>
+    </div>
+  </section>
+  <section id="about">
+    <div class="content">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <div class="about-container-left"
+        data-aos="fade-up-right"
+        data-aos-duration="1000"
+        >
+          <p>Consectetur adipisicing elit fugiat ratione laboriosam nostrum atque. Accusantium atque molestias amet culpa, quam illo porro, cupiditate repellendus explicabo sunt natus voluptate fugit ducimus esse.</p>
+          <h3>Accusantium atque molestias</h3>
+          <ul>
+            <li>Amet consectetur adipisicing elit</li>
+            <li>Fugiat ratione laboriosam nostrum atque</li>
+            <li>Cupiditate repellendus explicabo</li>
+          </ul>
+          <p>Fugiat ratione laboriosam nostrum atque. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h4>Atque lccusantium molestias amet</h4>
+          <p>Auam illo porro cupiditate repellendus explicabo ducimus esse. Dupiditate repellendus explicabo sunt natus voluptate fugit ducimus esse</p>
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="fade-in">
-                <h1>
-                    <span class="block text-primary">Masterpiece</span>
-                    <span class="block text-accent">Legend Style</span>
-                    <span class="block subtitle">Biak Roxy</span>
-                </h1>
-                <p>Rasakan kemewahan interior klasik modern yang menawan. Setiap ruangan dirancang dengan sentuhan artistik dan elegance yang tak terlupakan.</p>
-                <div class="button-group">
-                    <a href="paket.html" class="btn btn-primary">Lihat Paket Premium</a>
-                    <a href="tentang.html" class="btn btn-outline">Pelajari Lebih Lanjut</a>
-                </div>
-            </div>
+        <div class="about-container-right"
+        data-aos="fade-up-left"
+        data-aos-duration="1500"
+        >
+          <img src="assets/images/headshot.jpg" alt="your name, headshot">
         </div>
-        <!-- Ambient Lighting Effect -->
-        <div class="ambient-light"></div>
-        <!-- Scroll Indicator -->
-        <div class="scroll-indicator">
-            <div class="scroll-dot"></div>
+      </div>
+    </div>
+  </section><!-- #about -->
+  <section id="skill">
+    <div class="content skill--content">
+      <div class="left">
+        <h2>My skills &amp; expertise</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea quibusdam inventore molestias maiores esse eum, recusandae impedit? Neque inventore, saepe esse culpa, adipisci ipsum sed suscipit debitis in voluptatibus nisi.</p>
+      </div>
+      <div class="right">
+        <div class="item"
+        data-aos="flip-left"
+        data-aos-duration="1000"
+        >
+          <img src="assets/images/photoshop.png" alt="Photoshop">
+          <h3>Abode Photoshop</h3>
+          <p>laboriosam temporibus harum culpa recusandae nemo tempora ut vitae earum quo.</p>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <!-- Brand Section -->
-                <div class="footer-brand">
-                    <h3>
-                        Masterpiece <span class="text-accent">Legend Style</span>
-                    </h3>
-                    <p>Menghadirkan pengalaman interior mewah yang memadukan keanggunan klasik dengan sentuhan modern di jantung Jakarta.</p>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/masterpiecelegendstyleroxy?igsh=azk2Y3hmbWMxd2Fq" class="social-icon">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-                            </svg>
-                        </a>
-                        <a href="https://www.tiktok.com/@masterpiece.legendroxy?_t=ZS-8yXRSlQqPGa&_r=1" class="social-icon">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
-                            </svg>
-                        </a>
-                        <a href="https://wa.me/6281911511918" class="social-icon">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Quick Links -->
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="tentang.html">Tentang</a></li>
-                        <li><a href="paket.html">Paket</a></li>
-                        <li><a href="galeri.html">Galeri</a></li>
-                        <li><a href="lokasi.html">Lokasi</a></li>
-                        <li><a href="kontak.html">Kontak</a></li>
-                    </ul>
-                </div>
-
-                <!-- Contact Info -->
-                <div class="footer-contact">
-                    <h4>Kontak</h4>
-                    <div class="contact-item">
-                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                        </svg>
-                        <span>Jl. Biak No.40, Jakarta Pusat</span>
-                    </div>
-                    <div class="contact-item">
-                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                        <span>+62 819 11511918</span>
-                    </div>
-                    <div class="contact-item">
-                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                        </svg>
-                        <span>legendstylebiak@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Bottom Bar -->
-            <div class="footer-bottom">
-                <p>© 2025 Masterpiece Legend Style – Biak Roxy. All rights reserved.</p>
-                <div class="bottom-links">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Sitemap</a>
-                </div>
-            </div>
+        <div class="item"
+        data-aos="flip-right"
+        data-aos-duration="2000"
+        >
+          <img src="assets/images/illustrator.png" alt="Illustrator">
+          <h3>Abode Illustrator</h3>
+          <p>Sunt doloribus perferendis officia soluta enim optio distinctio exercitationem.</p>
         </div>
-    </footer>
-
-    <script src="js/script.js"></script>
+        <div class="item"
+        data-aos="flip-left"
+        data-aos-duration="1500"
+        >
+          <img src="assets/images/indesign.png" alt="InDesign">
+          <h3>Abode InDesign</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit qui debitis.</p>
+        </div>
+      </div>
+    </div>
+  </section><!-- #skill -->
+  <section id="service">
+    <h2>Services I offer</h2>
+    <div class="content service--content" 
+    data-aos="fade-up"
+    data-aos-duration="3000"
+    >
+      <div class="item">
+        <h3>Logo design</h3>
+        <img src="assets/images/logo-design.png" alt="Logo design">
+        <p>Maiores dicta suscipit voluptate dignissimos fugiat!</p>
+        <a href="#contact">Hire Me</a>
+      </div><!-- .item -->
+      <div class="item">
+        <h3>Packaging design</h3>
+        <img src="assets/images/packaging-design.png" alt="Packaging design">
+        <p>Consectetur adipisicing elit. Dicta necessitatibus officia vitae.</p>
+        <a href="#contact">Hire Me</a>
+      </div><!-- .item -->
+      <div class="item">
+        <h3>3D image manipulation</h3>
+        <img src="assets/images/3d-image-design.png" alt="3D image manipulation">
+        <p>Possimus repellendus voluptas vel assumenda distinctio tatibus.</p>
+        <a href="#contact">Hire Me</a>
+      </div><!-- .item -->
+    </div>
+  </section><!-- #service -->
+  <section id="portfolio">
+    <h2 class="center">Portfolio -My past work samples</h2>
+    <div class="content portfolio--content">
+      <div class="item">
+        <h3>Project Name</h3>
+        <img src="assets/images/project-one.jpg" alt="logo design">
+      </div><!-- item -->
+      <div class="item">
+        <h3>Project Name</h3>
+        <img src="assets/images/project-two.jpg" alt="logo design">
+      </div><!-- item -->
+      <div class="item">
+        <h3>Project Name</h3>
+        <img src="assets/images/project-three.png" alt="logo design">
+      </div><!-- item -->
+      <div class="item">
+        <h3>Project Name</h3>
+        <img src="assets/images/project-four.jpg" alt="logo design">
+      </div><!-- item -->
+      <div class="item">
+        <h3>Project Name</h3>
+        <img src="assets/images/project-five.jpg" alt="logo design">
+      </div><!-- item -->
+      <div class="item">
+        <h3>Project Name</h3>
+        <img src="assets/images/project-six.jpg" alt="logo design">
+      </div><!-- item -->
+    </div>
+  </section><!-- portfolio -->
+  <section id="testimonial">
+    <h2>Testimonial -What clients are saying about me</h2>
+    <div class="content testimonial--content">
+      <div class="item">
+        <figure>
+          <blockquote cite="https://www.huxley.net/bnw/four.html">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cumque quibusdam libero! Aperiam qui unde dolores iste eos, odit laboriosam optio sunt commodi aliquid pariatur nobis dolore! Excepturi, harum possimus.</p>
+          </blockquote>
+          <figcaption>—John Doe, <cite>CEO, Lorem Digital</cite></figcaption>
+        </figure>
+      </div><!-- item -->
+      <div class="item">
+        <figure>
+          <blockquote cite="https://www.huxley.net/bnw/four.html">
+              <p>Sit amet consectetur adipisicing elit. Neque cumque quibusdam libero! Aperiam qui unde dolores iste eos, odit laboriosam optio sunt commodi aliquid pariatur nobis dolore! Excepturi, harum possimus.</p>
+          </blockquote>
+          <figcaption>—John Doe, <cite>CEO, Lorem Digital</cite></figcaption>
+        </figure>
+      </div><!-- item -->
+      <div class="item">
+        <figure>
+          <blockquote cite="https://www.huxley.net/bnw/four.html">
+              <p>Consectetur adipisicing elit. Neque cumque quibusdam libero! Aperiam qui unde dolores iste eos, odit laboriosam optio sunt commodi aliquid pariatur nobis dolore! Excepturi, harum possimus.</p>
+          </blockquote>
+          <figcaption>—John Doe, <cite>CEO, Lorem Digital</cite></figcaption>
+        </figure>
+      </div><!-- item -->
+      <div class="item">
+        <figure>
+          <blockquote cite="https://www.huxley.net/bnw/four.html">
+              <p>Adipisicing elit. Neque cumque quibusdam libero! Aperiam qui unde dolores iste eos, odit laboriosam optio sunt commodi aliquid pariatur nobis dolore! Excepturi, harum possimus.</p>
+          </blockquote>
+          <figcaption>—John Doe, <cite>CEO, Lorem Digital</cite></figcaption>
+        </figure>
+      </div><!-- item -->
+    </div><!-- .testimonial--content -->
+  </section><!-- testimonial -->
+  <section id="pricing" 
+  data-aos="fade-up"
+  data-aos-duration="1000"
+  data-aos-offset="50"
+  >
+    <h2 class="center">Pricing</h2>
+    <p class="center">I charge $30/hour (USD). But if you need any of the following tasks done, see the fixed price below.</p>
+    <div class="pricing--content">
+      <div class="item">
+        <h3>Logo design</h3>
+        <p class="price">$235</p>
+        <img src="assets/images/logo-design.png" alt="logo design price">
+        <p class="description">1 Professional Logo Designs in transparent format (png).</p>
+        <a href="#contact">Hire me</a>
+      </div><!-- item -->
+      <div class="item">
+        <h3>Packaging design</h3>
+        <p class="price">$450</p>
+        <img src="assets/images/packaging-design.png" alt="packaging design price">
+        <p class="description">Print ready design label or packaging for one product.</p>
+        <a href="#contact">Hire me</a>
+      </div><!-- item -->
+      <div class="item">
+        <h3>Illustrate album cover</h3>
+        <p class="price">$370</p>
+        <img src="assets/images/3d-image-design.png" alt="3d image design price">
+        <p class="description">Hi-res front cover image for streaming platforms.</p>
+        <a href="#contact">Hire me</a>
+      </div><!-- item -->
+    </div><!-- pricing--content -->
+  </section><!-- #pricing-->
+  <section id="contact">
+    <div class="content">
+      <h2 class="center">Contact Me</h2>
+      <p class="center contact-detail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt nam doloremque, pariatur, repellat est natus soluta autem atque velit nisi ipsum sint fuga tenetur, harum molestias doloribus fugiat obcaecati culpa!</p>
+      <address>
+        <p>Email Me: <a href="mailto:hello@shihabiiuc.com">hello@shihabiiuc.com</a></p>
+        <p></p>Call me: <a href="tel:+88012345876">+88012345876</a></p>
+        <p>Office address: Box 564, Manchester<br>
+          England.</p>
+      </address>
+    </div>
+  </section>
+  <div class="social-share"
+  data-aos="fade-up"
+  data-aos-offset="200"
+  data-aos-anchor-placement="center-top"
+  >
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://shihabiiuc.github.io/portfolio/index.html" target="_blank"><img src="assets/svg/facebook.svg" alt="share on facebook"></a>
+    <a href="https://twitter.com/intent/tweet?url=https://shihabiiuc.github.io/portfolio/index.html&text=" target="_blank"><img src="assets/svg/twitter.svg" alt="share on twitter"></a>
+    <a href="https://pinterest.com/pin/create/button/?url=https://shihabiiuc.github.io/portfolio/index.html&media=&description=" target="_blank"><img src="assets/svg/pinterest.svg" alt="share on pinterest"></a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://shihabiiuc.github.io/portfolio/index.html" target="_blank"><img src="assets/svg/linkedin.svg" alt="share on linkedin"></a>
+  </div>
+  <footer class="site-footer">
+    <div class="content site-footer--content">
+      <div class="footer-left">
+        <img src="assets/images/logo-footer.png" alt="logo">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat necessitatibus a pariatur, quibusdam dolorem impedit assumenda laborum modi nam, rem odit, doloremque commodi in consectetur vitae nisi. Nostrum, voluptatum quibusdam. Rpsum dolor sit amet consectetur adipisicing elit. Repellat necessitatibus a pariatur, quibusdam dolorem impedit assumenda laborum modi nam, rem odit, doloremque commodi in consectetur vitae nisi. Nostrum, voluptatum quibusdam</p>
+      </div>
+      <div class="footer-right">
+        <address>
+          <p>Email Me: <a href="mailto:hello@shihabiiuc.com">hello@shihabiiuc.com</a></p>
+          <p></p>Call me: <a href="tel:+88012345876">+88012345876</a></p>
+          <p>Office address: Box 564, Manchester<br>
+            England.</p>
+        </address>
+      </div>
+    </div>
+    <div class="copyright-notice">
+      <p>&copy; <time datetime="2022">2022,</time> All rights reserved by your_name</p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
